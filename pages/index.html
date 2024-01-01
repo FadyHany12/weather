@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ! Start NavBar -->
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container p-4">
+
+            <a class="navbar-brand d-flex justify-content-center align-items-start" href="#">
+                <img src="../images/logo@2x.png" alt="">
+
+                <div class="logo text-white ms-3">
+                    <h5>Weather <span class="d-flex mt-1">tagline goes here</span></h5>
+
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="fa-solid fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ! End NavBar -->
+
+
+    <!-- ! Start Home -->
+    <section class="home">
+    
+        <div class="container p-4">
+    
+            <div class="find-search">
+                <form action="" class="position-relative">
+                    <input id="countrySearch" type="text" placeholder="Find your location..." class="input rounded-pill">
+                    <input id="searchBtn" type="button" name="Find" value="Find" class="position-absolute text-white px-5 rounded-pill">
+                </form>
+    
+            </div>
+            <div class="row gx-0 py-5 gy-md-5">
+    
+                <div class="col-lg-4 ">
+    
+                    <div id="cardOne" class="card rounded-end-0 border-0">
+                        
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+    
+                    <div id="cardTwo" class="card text-center middle-card rounded-top-0 rounded-bottom-0 border-0 h-100">
+                    
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+    
+                    <div id="cardThree" class="card text-center rounded-start-0 border-0 h-100">
+
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <!-- ! End Home -->
+
+
+    <!-- ! Start Footer -->
+    <section class="footer">
+
+        <div class="container px-5 py-2">
+
+            <div class="row d-flex justify-content-between align-items-center">
+
+                <div class="col-lg-8">
+
+                    <form action="" class="position-relative">
+
+                        <input id="emailSub" type="text" placeholder="Enter your email to subscribe..." class="rounded-pill">
+                        <input id="subscribeBtn" type="submit" name="subscribeBtn" value="subscribe" class="position-absolute rounded-pill"> 
+                    </form>
+                    
+                </div>
+
+                <div class="col-lg-3">
+
+                    <div class="social pt-5">
+                        <a href=""><i class="fa-brands fa-facebook-f fs-5"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus fs-5"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter fs-5"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest fs-5"></i></a>
+                    </div>
+                </div>
+                <p class="text-white pt-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </div>
+    </section>
+    <!-- ! End Footer -->
+
+    <script src="https://kit.fontawesome.com/f4ce500472.js" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
