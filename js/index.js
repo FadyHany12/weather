@@ -51,9 +51,9 @@ async function actualWeather(result) {
                     
                         <div class="custom">
                             <p class="weatherCondation">${result.current.condition.text}</p>
-                            <span><img src="../images/icon-umberella@2x.png" alt="">${result.forecast.forecastday[0].day.daily_chance_of_rain}%</span>
-                            <span><img src="../images/icon-wind@2x.png" alt="">${result.current.wind_kph}km/h</span>
-                            <span><img src="../images/icon-compass@2x.png" alt="">${result.current.wind_dir}</span>
+                            <span><img src="../../images/icon-umberella@2x.png" alt="">${result.forecast.forecastday[0].day.daily_chance_of_rain}%</span>
+                            <span><img src="../../images/icon-wind@2x.png" alt="">${result.current.wind_kph}km/h</span>
+                            <span><img src="../../images/icon-compass@2x.png" alt="">${result.current.wind_dir}</span>
                         </div> 
     </div>
 
